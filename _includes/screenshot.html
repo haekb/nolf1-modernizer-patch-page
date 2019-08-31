@@ -1,0 +1,5 @@
+{% assign screenshot = site.data.screenshots[include.index] %}
+<a href="{{ "/assets/img/" | relative_url }}{{ screenshot.filename }}">
+    <img src="{{ "/assets/img/" | relative_url }}{{ screenshot.filename }}">
+</a>
+<p>{{ screenshot.caption }}</p>
