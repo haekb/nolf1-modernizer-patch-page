@@ -22,7 +22,7 @@ title: NOLF Modernization Patch
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   No One Lives Forever Modernization Patch
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/nolf" # the subpath of your site, e.g. /blog
 url: "https://heythere.coffee" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: heytherecoffeee
 github_username:  haekb
