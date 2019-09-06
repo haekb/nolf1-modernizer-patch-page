@@ -3,18 +3,28 @@
         "id": 1,
         "name": "Screenshot 1",
         "filename": "screenshot1.jpg",
+        "thumbnail": "screenshot1_thumb.jpg",
         "caption": "Menus are now full(-ish)screen!"
     },
     {
         "id": 2,
         "name": "Screenshot 2",
         "filename": "screenshot2.jpg",
+        "thumbnail": "screenshot2_thumb.jpg",
         "caption": "Part of the opening cutscene with cutscene aspect ratio set to 4:3. Giving you the original creative intent, with only a bit of little tunnel vision."
     },
     {
         "id": 3,
         "name": "Screenshot 3",
         "filename": "screenshot3.jpg",
+        "thumbnail": "screenshot3_thumb.jpg",
         "caption": "Now with bigger and scalable HUD*! <br/><br/>*For non-text items..."
+    },
+    {
+        "id": 4,
+        "name": "Screenshot 4",
+        "filename": "screenshot4.jpg",
+        "thumbnail": "screenshot4_thumb.jpg",
+        "caption": "Play some of your favourite tracks, right from the menu!"
     }
 ]

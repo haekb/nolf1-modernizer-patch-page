@@ -18,6 +18,7 @@ The NOLF modernization patch fixes performance issues, and attempts to adapt the
 - Replaced mouse input code for a more responsive experience
 - Optional framerate cap to 60fps
 - Optional 4:3 mode for cutscenes
+- New Jukebox menu in Options
 
 ## Installation
 

@@ -1,5 +1,5 @@
 {% for screenshot in site.data.screenshots %}
 <a href="{{ "/screenshots/" | relative_url }}{{ screenshot.id }}">
-    <img src="{{ "/assets/img/" | relative_url }}{{ screenshot.filename }}">
+    <img src="{{ "/assets/img/" | relative_url }}{{ screenshot.thumbnail }}">
 </a>
 {% endfor %}
