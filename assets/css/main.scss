@@ -5,10 +5,24 @@
 // Mix in the base theme
 @import "minima";
 
+.page-content {
+    padding: 0;
+    background: linear-gradient(90deg, #EFA307 40%, #FFC445 0%);
+}
+
+.background-wrapper {
+    background-image: url("../img/bg.png");
+    background-size: auto;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    min-height: 1200px;
+}
+
 // Style-town starts here!
 .wrapper {
     display: flex;
-    
+    padding-top: 200px;
+
     .content-block {
         width: 60%;
         margin-right: 3%;
