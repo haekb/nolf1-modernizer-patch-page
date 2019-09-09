@@ -5,15 +5,16 @@
   
   <body>
 
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
+    <main class="page-content with-screenshot" aria-label="Content">
       <div class="media-wrapper">
+        <p>
+          <a href="{{ "./" | relative_url }}"> 
+            <img class="logo" src="{{ "/assets/img/" | relative_url }}logo.png">
+          </a>
+        </p>
         {{ content }}
       </div>
     </main>
-
-    {%- include footer.html -%}
 
   </body>
 

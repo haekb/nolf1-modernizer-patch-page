@@ -5,9 +5,22 @@
 // Mix in the base theme
 @import "minima";
 
-.page-content {
+$left-colour: #EFA307;
+$right-color: #FFC445;
+$panel-green: #B9CD5F;
+
+.logo {
+    width: auto !important;
+}
+
+// Mainly to apply the background colour.
+.with-bg {
     padding: 0;
-    background: linear-gradient(90deg, #EFA307 40%, #FFC445 0%);
+    background: linear-gradient(90deg, $left-colour 40%, $right-color 0%);
+}
+
+.with-screenshot {
+    background-color: $panel-green;
 }
 
 .background-wrapper {
@@ -41,6 +54,19 @@
 
 // If it's a small screen, collaspe it into a single column
 @media screen and (max-width: 800px) {
+    .with-bg {
+        padding: 0;
+        background: $panel-green;
+    }
+
+    .background-wrapper {
+        background-image: url("../img/mobile-bg.png");
+        background-size: auto;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        min-height: 1200px;
+    }    
+
     .wrapper {
         display: block;
         .content-block {
@@ -48,6 +74,9 @@
         }
         .screenshot-block {
             width: 100%;
+            img {
+                width: 100%;
+            }
         }
         #screenshots {
             visibility: visible;
@@ -57,7 +86,11 @@
 
 .media-wrapper {
     width: 100%;
+    img {
+        width: 80%;
+    }
     p {
+        font-size: 14pt;
         text-align: center;
     }
 }
