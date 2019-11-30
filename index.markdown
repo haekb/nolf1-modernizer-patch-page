@@ -1,9 +1,6 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-# JAKE WIP
-# TODO: Background WIP http://jsfiddle.net/o3acm7kf/5/
-
 layout: default
 ---
 {::options parse_block_html="true" /}
@@ -20,22 +17,30 @@ The NOLF modernization patch fixes performance issues, and attempts to adapt the
 - Optional 4:3 mode for cutscenes
 - New Jukebox menu in Options
 
+## Latest Patch
+
+- Added `NoRawInput` to disable mouse raw input
+- Fixed missing continue button on mission summary screen
+- Improved loading screen time (...that I broke, oops!)
+- Fixed some invisible impassible geometry.
+- Added a experimental developer console, can be toggled on/off with tilde. (`~`)
+- Fixed a crash in the weapons hotkey screen.
+
 ## Installation
 
 Extract the archive file over your NOLF directory. 
 
 Then in the launcher, go to `Advanced` -> `Customize` and add the Modernizer.rez file.
 
+Don't forget to check "Always load these rez files"!
+
 ## Support
 
 Please note this is an unofficial patch, it's NOT developed by Monolith Interactive
 
-I'm providing limited support for bugs on the [issues tab of the github page](https://github.com/haekb/nolf1-modernizer/issues).
-
-
 ## Download
 
-You can download it here.
+You can download it on [itch.io](https://haekb.itch.io/nolf-modernizer)!
 
 {::options parse_block_html="true" /}
 </div>
