@@ -10,6 +10,7 @@ The NOLF modernization patch fixes performance issues, and attempts to adapt the
 
 ## Key Changes
 
+- Working multiplayer out of the box
 - Fixes slowdown with some UI elements (such as looking down scope, or picking items up)
 - HUD scaling options for most HUD elements
 - Replaced mouse input code for a more responsive experience
@@ -17,14 +18,14 @@ The NOLF modernization patch fixes performance issues, and attempts to adapt the
 - Optional 4:3 mode for cutscenes
 - New Jukebox menu in Options
 
-## Latest Patch
+## Latest Patch Highlights
 
-- Added `NoRawInput` to disable mouse raw input
-- Fixed missing continue button on mission summary screen
-- Improved loading screen time (...that I broke, oops!)
-- Fixed some invisible impassible geometry.
-- Added a experimental developer console, can be toggled on/off with tilde. (`~`)
-- Fixed a crash in the weapons hotkey screen.
+- Patched out GameSpy from dedicated/hosted servers and the server browser.
+- Fixed a bug in ai path finding causing values to not always be accurate.
+- Fixed a silent out of range bug that could cause enemies to disappear and travel to a nearby galaxy at FTL speed!
+- Added a "Blackscreen Fix" work around for Intel HD graphics chips in Display options.
+
+View the full notes at [itch.io](https://haekb.itch.io/nolf-modernizer)!
 
 ## Installation
 
